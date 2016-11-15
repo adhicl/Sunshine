@@ -20,16 +20,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".activity.DetailActivity"
-            android:label="@string/title_activity_detail"
-            android:theme="@style/Sunshine.Home"></activity>
-
-        <provider
-            android:authorities="@string/content_authority"
-            android:name=".data.CuacaProvider"
-            android:exported="false"
-            android:syncable="true" />
     </application>
 
 </manifest>
