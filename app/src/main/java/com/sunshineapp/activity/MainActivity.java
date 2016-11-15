@@ -18,8 +18,8 @@ import java.net.URL;
 
 public class MainActivity extends AppCompatActivity {
 
-    class AmbilCuacaSekarangTask extends AsyncTask<Void, Void, String> {
-        public AmbilCuacaSekarangTask(){
+    class AmbilCuacaRamalanTask extends AsyncTask<Void, Void, String> {
+        public AmbilCuacaRamalanTask(){
 
         }
 
@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
         actionBar.setDisplayShowTitleEnabled(false);
 
-        new AmbilCuacaSekarangTask().execute();
+        new AmbilCuacaRamalanTask().execute();
     }
 
 }
